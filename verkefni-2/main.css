@@ -1,0 +1,40 @@
+body {
+    padding-left: 4em;
+    padding-right: 4em;
+    background: 
+    linear-gradient(135deg, rgb(191, 233, 193) 0%, rgb(191, 233, 193) 1%,rgb(194, 206, 183) 1%, rgb(194, 206, 183) 56%,rgb(197, 180, 173) 56%, rgb(197, 180, 173) 75%,rgb(201, 153, 163) 75%, rgb(201, 153, 163) 80%,rgb(204, 126, 152) 80%, rgb(204, 126, 152) 87%,rgb(207, 100, 142) 87%, rgb(207, 100, 142) 97%,rgb(210, 73, 132) 97%, rgb(210, 73, 132) 100%)
+}
+
+h1 {
+    border: 2px solid green;
+}
+.box {
+    border: 3px solid red;
+    padding: 2em;
+    color: red;
+    margin-bottom: 2em;
+}
+.box2 h1{
+    color: blue;
+    border: 4px dashed blue;
+    padding: 1em;
+}
+.blokk li{
+    display: block;
+    padding: 1em;
+    margin: 1em;
+    border: 3px dashed green;
+}
+.blokk2 li{
+    color: red;
+    display: inline;
+    padding: 1em;
+    margin: 1em;
+    border: 3px dashed blue;
+}
+.blokk3 li{
+    display: inline-block;
+    padding: 1em;
+    margin: 1em;
+    border: 3px dashed red;
+}
