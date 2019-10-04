@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Grenze|Turret+Road&display=swap');
+body {
+    display: grid;
+    grid-template-areas: 
+      'header' 
+      'nav'
+      'content'
+      'footer';
+    font-size: 20px;
+    color: #ffffff;
+    background-image: url(58c3883b1ca8d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Grenze', serif;
+}
+  .header {
+    grid-area: header;
+    padding: 5px;
+    text-align: center;
+    font-size: 50px;
+    border: 1px solid;
+    font-family: 'Turret Road', cursive;
+  }
+  nav {
+    grid-area: nav;
+  }
+  .links {
+      grid-column: auto;
+      grid-row: auto;
+      padding: 10px;
+      border: 1px solid;
+      text-align: center;
+  }
+  
+  .container {
+  display: grid;
+  grid-template-areas: 'middle'
+                        'left'
+                        'right';
+  grid-template-columns: 1fr;
+  border: 1px solid;
+  } 
+  
+  .left,
+  .middle,
+  .right {
+    padding: 10px;
+    height: auto;
+    border: 1px solid;
+    text-align: center;
+  }
+  
+  .left {
+    grid-area: left;
+    grid-column: auto
+    border 1px solid;
+  }
+  
+  .middle {
+      grid-area: middle;
+      grid-column: auto
+      border 1px solid
+  }
+  
+  .right {
+    grid-area: right;
+    grid-column: auto
+    border 1px solid 
+  }
+  
+  .footer {
+    grid-area: footer;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid;
+  }
+  a:visited{
+      color: purple;
+  }
+  a:hover{
+      color: whitesmoke;
+  }
+  a:active{
+      color: cyan;
+  }
