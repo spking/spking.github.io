@@ -1,0 +1,82 @@
+*, *:before, *:after {
+    box-sizing: border-box; 
+  }
+  
+  .topnav {
+  grid-area: topnav; 
+  }
+  header {
+  grid-area: header;
+  }
+  .content {
+  grid-area: content; 
+  }
+  footer {
+  grid-area: footer;
+  }
+  .midja {
+  grid-area: midja; 
+  }
+  .vinstri {
+  grid-area: vinstri;
+  }
+  .haegri {
+  grid-area: haegri; 
+  }
+  
+  body {
+  display: grid;
+  grid-gap: 0;
+  grid-template-areas:
+    "topnav"
+    "header"
+    "content"
+    "footer";
+  }
+  
+  .content {
+  display: grid;
+  grid-gap: 0;
+  grid-template-areas:
+    "midja"    
+    "vinstri"
+    "haegri"
+  }
+  .topnav ul{
+    background: #1c2d1c; 
+    }
+    .topnav input {
+    display: none;
+    }
+    
+    .topmenu {
+    display: block;
+    padding: 0;
+    margin: 0;
+    list-style: none; 
+    
+    }
+    .topmenu li {
+    border: 0;
+    border-bottom: 1px solid lime; 
+    padding: 0;
+    margin:0;
+    }
+    .topmenu li {
+    border: 0;
+    padding: 0;
+    border-bottom: 1px solid lime; 
+    }
+    .topmenu a {
+    display: block; 
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: .4em 1em; 
+    }
+    .topmenu a:hover,
+    .topmenu a:active,
+    .virkur {
+    color: black !important;
+    background-color: lime;
+    }
