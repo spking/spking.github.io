@@ -1,6 +1,8 @@
 *, *:before, *:after {
     box-sizing: border-box; 
   }
+  /*heimild: https://gridbyexample.com/examples/example13/ */
+  
   
   .topnav {
   grid-area: topnav; 
@@ -28,100 +30,182 @@
   display: grid;
   grid-gap: 0;
   grid-template-areas:
-    "topnav"
     "header"
     "content"
-    "footer";
-  }
-   body {
-  line-height: 1.5em;
-  } 
-  header {
-  background: #93B9BE; 
-  }
-  footer {
-  background: #93B9BE; 
-  }
-  .midja {
-  background: #93B9BE; 
-  }
-  .vinstri {
-  background: #93B9BE; 
-  }
-   
-  .haegri {
-  background: #93B9BE; 
+    "footer"
+    "topnav";
   }
   
   .content {
   display: grid;
   grid-gap: 0;
   grid-template-areas:
-    "vinstri" "midja" "haegri"  
-    }
-    }
-     header h1 {
-     color: #fff;
-     line-height: 1.2;
-     font-weight: normal;
-     }
-     .midja h2 {
-     margin: .7em 0 .8em 0;
-     }
-     .midja h4 {
-     text-align: justify;
-     margin: .4em 0;
-     }
-      .midja p {
-     text-align: justify;
-     }
-    .topnav ul{
-    background: #1c2d1c; 
-     }
-     .topnav input {
-    display: none;
-    }.topnav ul{
-    background: #1c2d1c; 
-    }
-    .topnav input {
-    display: none;
-    }
-    
-    .topmenu {
-    display: block;
-    padding: 0;
-    margin: 0;
-    list-style: none; 
-       }
+    "midja"    
+    "vinstri"
+    "haegri"
+  }
   
-    .topmenu {
-    display: block;
-    padding: 0;
-    margin: 0;
-    list-style: none; 
+  body {
+  line-height: 1.5em;
+  }
+  .topnav {
+  background: #1c2d1c; 
+  }
+  header {
+  background: tomato; 
+  }
+  footer {
+  background: lightgreen; 
+  }
+  .midja {
+  background: skyblue; 
+  }
+  .vinstri {
+  background: gold; 
+  }
+   
+  .haegri {
+  background: pink; 
+  }
+  header,
+  footer,
+  .midja,
+  .vinstri, 
+  .haegri {
+  padding: 1em; 
+  }
+
   
-    }
-    .topmenu li {
-    border: 0;
-    border-bottom: 1px solid gray; 
-    padding: 0;
-    margin:0;
-    }
-    .topmenu li {
-    border: 0;
-    padding: 0;
-    border-bottom: 1px solid gray; 
-    }
-    .topmenu a {
-    display: block; 
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    padding: .4em 1em; 
-    }
-    .topmenu a:hover,
-    .topmenu a:active,
-    .virkur {
-    color: black !important;
-    background-color: silver;
-    }
+  header h1 {
+  color: #fff;
+  line-height: 1.2;
+  font-weight: normal;
+  }
+  .midja h2 {
+  margin: .7em 0 .8em 0;
+  }
+  .midja h4 {
+  text-align: justify;
+  margin: .4em 0;
+  }
+  .midja p {
+  text-align: justify;
+  }
+  .topnav ul{
+  background: #1c2d1c; 
+  }
+  .topnav input {
+  display: none;
+  }
+  
+  .topmenu {
+  display: block;
+  padding: 0;
+  margin: 0;
+  list-style: none; 
+  
+  }
+  .topmenu li {
+  border: 0;
+  border-bottom: 1px solid silver; 
+  padding: 0;
+  margin:0;
+  }
+  .topmenu li {
+  border: 0;
+  padding: 0;
+  border-bottom: 1px solid lime; 
+  }
+  .topmenu a {
+  display: block; 
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: .4em 1em; 
+  }
+  .topmenu a:hover,
+  .topmenu a:active,
+  .virkur {
+  color: black !important;
+  background-color: lime;
+  }
+  img, video {
+  max-width: 100%;
+  height: auto;
+  }
+  img {
+  display: block;
+  }
+  
+  figure {
+  margin:0; 
+  border: 1px solid orange;
+  }
+  .myndabox {
+  width: 162px; /
+  }
+  
+  @media only screen and (max-width: 37.5em) {
+  
+      .myndabox {
+          flex: auto;
+      }
+  
+      .topmenu {
+          grid-row: 4;
+      }
+  }
+  
+  @media only screen and (min-width: 37.5em) {
+      .topmenu {
+          grid-row: 1;
+          grid-auto-flow: column;
+      }
+  
+      .content {
+          grid-template-columns: 40% auto;
+      }
+  
+      .vinstri,
+      .haegri {
+          grid-column: 1;
+      }
+  
+      .vinstri {
+          grid-row: 1;
+      }
+  
+      .haegri {
+          grid-row: 2;
+      }
+  
+      .midja {
+          grid-column: 2;
+          grid-row-start: 1;
+          grid-row-end: 3;
+      }
+  
+  }
+  
+  @media only screen and (min-width: 48em) {
+      .content {
+          grid-template-columns: 12em auto 12em;
+      }
+  
+      .vinstri {
+          grid-column: 1;
+          grid-row-start: 1;
+          grid-row-end: 3;
+      }
+  
+      .haegri {
+          grid-column: 3;
+          grid-row-start: 1;
+          grid-row-end: 3;
+      }
+  
+      .myndabox {
+          width: 18%;
+          height: 100%;
+      }
+  }
