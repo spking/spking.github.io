@@ -144,10 +144,9 @@
   figure {
   margin:0; 
   border: 1px solid orange;
+  justify-items: center;
   }
-  .myndabox {
-  width: 162px; /
-  }
+
   
   @media only screen and (max-width: 37.5em) {
   
