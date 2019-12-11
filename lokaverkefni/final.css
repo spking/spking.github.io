@@ -86,7 +86,7 @@
   text-align: center;
   }
   .midja h2 {
-  margin: .7em 0 .8em 0;
+  margin: .4em 0 .8em 0;
   }
   .midja h4 {
   text-align: justify;
@@ -204,10 +204,5 @@
           grid-column: 3;
           grid-row-start: 1;
           grid-row-end: 3;
-      }
-  
-      .myndabox {
-          width: 18%;
-          height: 100%;
       }
   }
