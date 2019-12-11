@@ -166,7 +166,7 @@
       }
   
       .content {
-          grid-template-columns: 40% auto;
+          grid-template-columns: 20% auto;
       }
   
       .vinstri,
