@@ -22,6 +22,9 @@
   .haegri {
   grid-area: haegri; 
   }
+  .bottom {
+  grid-area: bottom;
+    }
   
   body {
   display: grid;
@@ -30,6 +33,7 @@
     "topnav"
     "header"
     "content"
+    "bottom"
     "footer"
     ;
   }
@@ -57,6 +61,7 @@
   background: #1c2d1c;
   border: solid 1px black;
   }
+    
   .midja {
   background: #65959C;
   border: solid 1px black;
@@ -65,7 +70,10 @@
   background: #6A8E93;
   border: solid 1px black;
   }
-   
+  .bottom{
+  background: #1c2d1c;
+  border: solid 1px black;
+    }
   .haegri {
   background: #6A8E93;
   border: solid 1px black;
@@ -73,6 +81,7 @@
   }
   header,
   footer,
+  .bottom,
   .midja,
   .vinstri, 
   .haegri {
