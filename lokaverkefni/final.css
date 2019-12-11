@@ -57,9 +57,7 @@
   display: grid;
   grid-gap: 0;
   grid-template-areas:
-    "midja"    
-    "vinstri"
-    "haegri"
+    "vinstri" "midja" "haegri"  
     }
     }
      header h1 {
