@@ -1,9 +1,6 @@
 *, *:before, *:after {
     box-sizing: border-box; 
   }
-  /*heimild: https://gridbyexample.com/examples/example13/ */
-  
-  
   .topnav {
   grid-area: topnav; 
   }
