@@ -33,6 +33,25 @@
     "content"
     "footer";
   }
+   body {
+  line-height: 1.5em;
+  } 
+  header {
+  background: #93B9BE; 
+  }
+  footer {
+  background: #93B9BE; 
+  }
+  .midja {
+  background: #93B9BE; 
+  }
+  .vinstri {
+  background: #93B9BE; 
+  }
+   
+  .haegri {
+  background: #93B9BE; 
+  }
   
   .content {
   display: grid;
@@ -41,8 +60,29 @@
     "midja"    
     "vinstri"
     "haegri"
-  }
-  .topnav ul{
+    }
+    }
+     header h1 {
+     color: #fff;
+     line-height: 1.2;
+     font-weight: normal;
+     }
+     .midja h2 {
+     margin: .7em 0 .8em 0;
+     }
+     .midja h4 {
+     text-align: justify;
+     margin: .4em 0;
+     }
+      .midja p {
+     text-align: justify;
+     }
+    .topnav ul{
+    background: #1c2d1c; 
+     }
+     .topnav input {
+    display: none;
+    }.topnav ul{
     background: #1c2d1c; 
     }
     .topnav input {
@@ -54,18 +94,25 @@
     padding: 0;
     margin: 0;
     list-style: none; 
-    
+       }
+  
+    .topmenu {
+    display: block;
+    padding: 0;
+    margin: 0;
+    list-style: none; 
+  
     }
     .topmenu li {
     border: 0;
-    border-bottom: 1px solid lime; 
+    border-bottom: 1px solid gray; 
     padding: 0;
     margin:0;
     }
     .topmenu li {
     border: 0;
     padding: 0;
-    border-bottom: 1px solid lime; 
+    border-bottom: 1px solid gray; 
     }
     .topmenu a {
     display: block; 
@@ -78,5 +125,5 @@
     .topmenu a:active,
     .virkur {
     color: black !important;
-    background-color: lime;
+    background-color: silver;
     }
