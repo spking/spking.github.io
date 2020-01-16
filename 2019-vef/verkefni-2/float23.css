@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    max-width: 50em;
+    margin: 1em auto;
+    
+}
+.box {
+    float: left;
+    padding: 1em;
+    border: 1px solid;
+    width: 50%;
+}
+.bigL {
+    float: left;
+    padding: 0 .3em;
+    font-size: 4em;
+}
+.imgR {
+    float: right;
+    padding: 0 .3em;
+    width: 40%;
+}
+.imgR img {
+    width: 100%;
+    height: auto;
+}
+.ath {
+    border: 1px solid;
+    text-align: center;
+    
+}
+.athugid {
+    text-align: center;
+    background-color: #FFFF00;
+}
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}

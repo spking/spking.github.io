@@ -1,0 +1,48 @@
+body{
+    background-color: blue;
+    border-style: solid;
+    border-color: midnightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    padding: 2em;
+    margin: 2em auto;
+    max-width: 50 em;
+
+}
+.adalmal{
+    color: lightblue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.minnamal{
+    color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.rammi{
+    padding-left: 60px;
+    color: cornsilk;
+}
+.imagine{
+    color: whitesmoke;
+}
+a:visited{
+    color: lime;
+}
+a:hover{
+    color: white;
+}
+a:active{
+    color: aqua;
+}
+.elfis{
+    color: orange;
+}
+.elvis{
+    color: lightblue;
+    text-align: center;
+}
+.listinn{
+    color: azure;
+}

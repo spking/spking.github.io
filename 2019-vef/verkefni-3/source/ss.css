@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Days+One&display=swap');
+body {
+    font-family: sans-serif;
+    display: grid;
+    grid-template-areas: 
+      'nav'
+      'header' 
+      'content'
+      'footer';
+    background-image: url(26024033_1656291784462057_7083458223284285764_o.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    font-family: 'Ubuntu Mono', monospace;
+  }
+  .header {
+    grid-area: header;
+    padding: 5px;
+    text-align: center;
+    font-size: 50px;
+    border: 1px solid;
+    background-color: rgba(155, 89, 182, 0.5);
+  }
+  nav {
+    grid-area: nav;
+    background-color: rgba(108, 52, 132, 0.5);
+    border: 1px solid;
+    font-family: 'Days One', sans-serif;
+  }
+  .links {
+      grid-column: auto;
+      grid-row: auto;
+      padding: 20px;
+      text-align: center;
+      border: 1px solid;
+  }
+  
+  .container {
+  display: grid;
+  grid-template-areas: 'left middle right';
+  grid-template-columns: 1fr 2fr 1fr;
+  border: 1px solid;
+  background-color: rgba(155, 89, 182, 0.5);
+  } 
+  .left,
+  .middle,
+  .right {
+    padding: 10px;
+    height: auto;
+    border: 1px solid;
+  }
+  
+  .left {
+    grid-area: left;
+    grid-column: auto
+  }
+  
+  .middle {
+      grid-area: middle;
+      grid-column: auto;
+      font-size: 30px;
+      border: 1px solid;
+  }
+  
+  .right {
+    grid-area: right;
+    grid-column: auto
+    border 1px solid 
+  }
+  .under{
+      grid-area: auto;
+      padding: 10px;
+  }
+  
+  .footer {
+    grid-area: footer;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid;
+    font-family: 'Days One', sans-serif;
+    background-color: rgba(108, 52, 132, 0.5);
+  }
+  a:visited{
+      color: purple;
+  }
+  a:hover{
+      color: navy;
+  }
+  a:active{
+      color: cyan;
+  }
