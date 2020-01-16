@@ -1,0 +1,23 @@
+Hvað gera eftirfarandi Linux skipanir?
+cd - breyta um möppu
+ls - skoða allt í möppunni
+pwd - sýnir í hvaða möppu maður er
+mkdir - skapa möppu
+ 
+Hvað gera eftirfarandi Git skipanir?
+git clone - skapar eftirhermu af útgáfunni í annari grein
+git status - sýnir stöðu skráa í möppunni
+git diff - sýnir munin á útgáfum
+
+Hvað gera eftirfarandi Git skipanir saman? Hvaða gagn er að þeirri aðgerð?
+git log - sýnir lista yfir öllum útgáfum
+git checkout - leyfir þér að skoða eldri útgáfu
+git branch - býr til nýja grein / skiptir um grein
+
+Hvað er útgáfustýring (Version Control)? - forrit sem leyfir þér að sífellt uppfæra gagnageymslu eða forrit án þess að þurfa að hala öllum gögnunum niður í hvert sinn sem eitthvað breytist
+
+Hverjir eru helstu kostir við að nota GIT? - .þú getur uppfært verkefni eða gagnagrunn snögglega og auðveldlega
+
+Hversu oft telur þú að eigi að gera færslur (commit) í verkefni? - í hvert sinn sem að breytingin hefur áhrif á upplýsingar sem utanaðkomandi aðili myndi taka eftir.
+
+Hvað er átt við með “Working Directory”?” og “Staging Area” í GIT? - working directory er mappan sem þú ert að hafa áhrif á. Staging Area eru skrárnar sem á eftir að uppfæra.
